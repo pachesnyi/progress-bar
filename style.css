@@ -1,0 +1,16 @@
+.bar-wrapper {
+    border: 1px solid salmon;
+   
+  }
+  
+  .line {
+    width: 0%;
+    height: 20px;  
+    transition: 0.4s all ease;
+    display:flex;
+    background: greenyellow;
+  }
+
+  .bar-wrapper + .bar-wrapper {
+      margin-top: 20px;
+  }
